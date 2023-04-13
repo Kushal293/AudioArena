@@ -1,0 +1,19 @@
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.paragraph {
+    color: #c4c5c5;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .cardWrapper {
+        margin-left: 80px;
+    }
+}
